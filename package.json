@@ -1,20 +1,17 @@
 {
-  "name": "ngrok",
-  "version": "2.2.14",
-  "description": "node wrapper for ngrok",
+  "name": "ngrok-api",
+  "version": "1.0.0",
+  "description": "ngrok api",
   "main": "index.js",
-  "types": "ngrok.d.ts",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/_mocha"
   },
   "files": [
-    "index.js",
-    "postinstall.js",
-    "bin/ngrok"
+    "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bubenshchykov/ngrok.git"
+    "url": "git://github.com/Mindflash/ngrok-api.git"
   },
   "keywords": [
     "ngrok",
@@ -26,7 +23,7 @@
   "author": "bubenshchykov",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/bubenshchykov/ngrok/issues"
+    "url": "https://github.com/Mindflash/ngrok-api/issues"
   },
   "devDependencies": {
     "chai": "~3.5.0",
@@ -35,12 +32,7 @@
   },
   "dependencies": {
     "@types/node": "^7.0.31",
-    "async": "^2.3.0",
-    "decompress-zip": "^0.3.0",
     "request": "^2.55.0",
     "uuid": "^3.0.0"
-  },
-  "bin": {
-    "ngrok": "./bin/ngrok"
   }
 }
